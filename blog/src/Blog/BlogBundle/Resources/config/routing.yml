@@ -1,0 +1,13 @@
+blog_blog_category:
+    resource: "@BlogBlogBundle/Resources/config/routing/category.yml"
+    prefix:   /category
+
+blog_blog_product:
+        resource: "@BlogBlogBundle/Resources/config/routing/product.yml"
+        prefix:   /product
+
+blog_blog_homepage:
+    path:     /
+    defaults: { _controller: BlogBlogBundle:Default:index }
+
+
