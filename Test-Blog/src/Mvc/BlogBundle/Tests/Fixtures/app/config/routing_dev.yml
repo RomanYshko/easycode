@@ -1,0 +1,10 @@
+mvc_blog:
+    resource: "@MvcBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+mvc_blog_admin:
+    resource: "@MvcBlogBundle/Resources/config/routing_admin.yml"
+    prefix:   /admin
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

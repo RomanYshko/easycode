@@ -1,0 +1,3 @@
+mvc_blog_homepage:
+    path:     /
+    defaults: { _controller: MvcBlogBundle:Default:index }

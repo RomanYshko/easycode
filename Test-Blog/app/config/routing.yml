@@ -1,0 +1,14 @@
+mvc_blog:
+    resource: "@MvcBlogBundle/Resources/config/routing.yml"
+    prefix:   /blog
+
+
+
+
+#blog_blog:
+#    resource: "@BlogBlogBundle/Resources/config/routing.yml"
+#    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
